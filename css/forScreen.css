@@ -1,0 +1,85 @@
+#forGameContainer {
+    float: left;
+    position: relative;
+    background-image: -webkit-linear-gradient(top, #f2f2f2, #e6e6e6);
+    background-image: linear-gradient(top, #f2f2f2, #e6e6e6);
+    max-width: 560px;
+    margin: 10px 15px;
+    border-radius: 2px;
+    width: 100%;
+    padding: 15px;
+
+}
+
+/*div {*/
+/*transition: all .1s;*/
+/*}*/
+
+.cellWithOurTank {
+
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHiSURBVDhPjVS/S8NAFE6axgZbiB1EOgVxV6F/QBFxdevioijiIIibOEgHN0dxc3AQXUU3BWcHfyzioqBoRVSwikJB/BG/L+SFM72UBD7y7rt337337t0ZhmFkarVaBI6FU2366MayVuYMEpVKJRsHHLRfkr+s1wpyUalU6nRdt6tYLLoCjqvVqqULIFEQYZnlctk2TfMIeIwjk8nMJkUf8PEUyNm2PQAhPwF18BvAVgzbGG9qBRHFXCj2i38c3OgSOAFOFZzBPv4nGJ6kgYldjVAkjA3HE9OWlFlsOjmO40HsuZ0g5g5FkOtUBBGKGHZegPNbm3Qlym/4rEK0o+UMJM1cLtfX5iC0B4QAlhip2kZBhCQtyxqBYBN4T4kP+B1wrdqbkSAi7MWOk8B0WiCIUall1NgkIDCF3R6U2n3BFrBuTFnlaJP7BPbz+XwPLwRFKTah1O4F9k+slhyTj9fxVfHdkdTZczwxOl9wF2wwr7YMxjPk8V0pfB1cFnNjIdcsFArdQfogrkPBewyHYK+rgrDXwA/j/6TwjfAQV8K1DT4gUs9BkHwEku5uGn5Z2icQxWPQD8E94Aa41eAugTtH2ou+75vSOlHbUNjzPIfvYFpID1Ow5T2U65d46TUTqpAI/gHaliEp/iDpzAAAAABJRU5ErkJggg==);
+    background-position: center center;
+
+}
+
+.cellWithEnemyTank {
+
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGlSURBVDhP1VTPKwVRFJ7fzfSamEYpvdha2E0pNlOsrTQLNrJQkq2lJgu/yj+gbCg7eTYslLJgo0h6pRRlL4mdML4z75xpmryahwVTX/d+58d3zz33zlUURdHiOM5AXGz5OcV8xSVXfAoZwjA0fgv/RDBJEhU9+NEnLSMRrVqtOpqmzaqqulQSy4hbBVaQN++6ri9nkVYFxyKQfBcQnSYdqlIE91nsA2MZ1JHYp+v6EOftFAVrJYVksVNpOPLOgQfP89qyQ4Bht0XBWySPA2PIO+Iq71DxiGy51Qqb9btWFMwH0vaKPN/foij5tkXwkJOfMG4A19yCV4ybwEmTG3DF8S/s30sFcewzZMA4R9yyrF4O2CIeBIEJ/gzcA2fADS1o23YPX7sF8HfkT6ScjZcwHmDeDscUC16Ad6DZw8QNwxigWAh1cwGToB7mx0Dj5PlZUhA8yFXQNqk/a0AdeGO+nl2Lxq5itlP8o2maQSYoN9xxnC5UE4nT930XfBSLhbI4xUZRpBOHvZ/iK5VKJ/FUJ/8e5ivIfiM2Ft9NEZWc7HH48w/sJ7eqFvWihkLZAAAAAElFTkSuQmCC);
+    background-position: center center;
+
+}
+
+.outside-cell {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    transform: translate(20%, 0%);
+    outline: 2px solid lavender;
+    background: #fff;
+
+}
+
+.info {
+    width: 400px;
+    min-height: 20px;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px 0 0 0;
+    float: left;
+    text-align: center;
+    font-size: 9px;
+    color: darkslategrey;
+    transform: translate(20%, 0%);
+
+}
+
+.inside-cell {
+    width: 20px;
+    height: 20px;
+    outline: 1px solid lavender;
+    float: left;
+    font-size: 7px;
+    color: black;
+    position: relative;
+
+}
+
+.clear-both {
+    clear: both !important;
+}
+
+.shotMark {
+    width: 6px;
+    height: 4px;
+    border-radius: 100%;
+    border: 1px solid red;
+    background-color: yellow;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
