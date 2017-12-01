@@ -622,12 +622,12 @@ var tanks = {};
 
 
 
-    var isTargetedWell = function() {    // если танк-враг на одном ряду с нашим, то пункт поражения
+    var isTargetedWell = (function() {    // если танк-враг на одном ряду с нашим, то пункт поражения
         if (ourTank.i === enemyTank.i) {_cells[ourTank.i][ourTank.j].bullet.finalPosition_J = enemyTank.j;
         console.log("цель захвачена! удар по столбцу:");
         console.log(_cells[ourTank.i][ourTank.j].bullet.finalPosition_J);
-            tanks.pauseGame();}
-    };
+            this.pauseGame();}
+    }).bind(this);
 
 
     var _createModelOfThisShotController = function () {
