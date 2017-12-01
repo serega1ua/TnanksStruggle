@@ -621,6 +621,15 @@ var tanks = {};
     // };
 
 
+
+    var isTargetedWell = function() {    // если танк-враг на одном ряду с нашим, то пункт поражения
+        if (ourTank.i === enemyTank.i) {_cells[ourTank.i][ourTank.j].bullet.finalPosition_J = enemyTank.j;
+        console.log("цель захвачена! удар по столбцу:");
+        console.log(_cells[ourTank.i][ourTank.j].bullet.finalPosition_J);
+            tanks.pauseGame();}
+    };
+
+
     var _createModelOfThisShotController = function () {
 
         //TODO проверяем, поразит ли он вражеский танк и останавливаем его
@@ -628,8 +637,16 @@ var tanks = {};
         // отсюда вызываем уже отрисовку-представление
 
 
+          //пока только горизонтально он стреляет
         _cells[ourTank.i][ourTank.j].bullet.finalPosition_I = _cells[ourTank.i][ourTank.j].bullet.startPosition_I;
+
+        //по умолчанию он выстрелит до края поля
         _cells[ourTank.i][ourTank.j].bullet.finalPosition_J = _CELL_SIZE - 1;
+
+
+        //ищем танк врага
+        isTargetedWell();
+
 
         console.log("наносим удар по клетке с  координатами (i, j):");
         console.log(_cells[ourTank.i][ourTank.j].bullet.finalPosition_I);
@@ -708,4 +725,4 @@ var tanks = {};
 //вызываем тут, чтоб в консоли не вызывать
 tanks.init(document.getElementById("forGameContainer"));
 console.dir(tanks);
-//tanks.startGame();
+ tanks.startGame();
