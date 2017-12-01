@@ -18,15 +18,15 @@
       <file leaf-file-name="struggle.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/struggle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="623" column="0" lean-forward="true" selection-start-line="623" selection-start-column="0" selection-end-line="623" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="652" column="0" lean-forward="true" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
               <folding>
-                <element signature="e#3593#4431#0" expanded="false" />
-                <element signature="e#4479#6104#0" expanded="false" />
-                <element signature="e#6149#6538#0" expanded="false" />
-                <element signature="e#6591#6750#0" expanded="false" />
-                <element signature="e#6898#8665#0" expanded="false" />
-                <element signature="e#8883#9510#0" expanded="false" />
+                <element signature="e#3666#4504#0" expanded="false" />
+                <element signature="e#4552#6177#0" expanded="false" />
+                <element signature="e#6222#6611#0" expanded="false" />
+                <element signature="e#6664#6823#0" expanded="false" />
+                <element signature="e#6971#8738#0" expanded="false" />
+                <element signature="e#8956#9583#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -35,11 +35,12 @@
       <file leaf-file-name="forScreen.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/forScreen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="282">
+              <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="e#1291#2022#2" expanded="true" />
-                <element signature="e#2340#3471#2" expanded="true" />
+                <element signature="e#2120#3187#2" expanded="true" />
+                <element signature="e#3505#4636#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,9 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Не передан css-класс танка</find>
-      <find>777</find>
-      <find>_showTank</find>
       <find>controllerFor</find>
       <find>cellWithOurTank</find>
       <find>cellWithEnemyTank</find>
@@ -91,12 +89,15 @@
       <find>setInterval</find>
       <find>Bullet</find>
       <find>dom</find>
-      <find>transition</find>
       <find>createModelOfThisShot</find>
       <find>startPosition_J</find>
       <find>moveEnemyTank</find>
       <find>this.pauseGame</find>
       <find>pauseGame</find>
+      <find>transition</find>
+      <find>CSSCLASSFOR_ENEMY_TANK</find>
+      <find>classOfTa</find>
+      <find>_controllerFor_showResultOfMoving</find>
     </findStrings>
     <replaceStrings>
       <replace>_getRandomIntFromInterval</replace>
@@ -277,12 +278,12 @@
       <updated>1510687684307</updated>
       <workItem from="1510687687753" duration="68039000" />
       <workItem from="1511600219039" duration="4357000" />
-      <workItem from="1511779761650" duration="48937000" />
+      <workItem from="1511779761650" duration="50022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121333000" />
+    <option name="totallyTimeSpent" value="122418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -322,12 +323,12 @@
         <state relative-caret-position="51">
           <caret line="3" column="75" lean-forward="true" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
           <folding>
-            <element signature="e#3593#4431#0" expanded="false" />
-            <element signature="e#4479#6104#0" expanded="false" />
-            <element signature="e#6149#6538#0" expanded="false" />
-            <element signature="e#6591#6750#0" expanded="false" />
-            <element signature="e#6898#8665#0" expanded="false" />
-            <element signature="e#8883#9510#0" expanded="false" />
+            <element signature="e#3666#4504#0" expanded="false" />
+            <element signature="e#4552#6177#0" expanded="false" />
+            <element signature="e#6222#6611#0" expanded="false" />
+            <element signature="e#6664#6823#0" expanded="false" />
+            <element signature="e#6971#8738#0" expanded="false" />
+            <element signature="e#8956#9583#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -341,17 +342,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struggle.js" />
-    <entry file="file://$PROJECT_DIR$/css/forScreen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="e#1291#2022#2" expanded="true" />
-            <element signature="e#2340#3471#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -360,17 +350,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/forScreen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#1291#2022#2" expanded="true" />
+            <element signature="e#2120#3187#2" expanded="true" />
+            <element signature="e#3505#4636#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/struggle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="623" column="0" lean-forward="true" selection-start-line="623" selection-start-column="0" selection-end-line="623" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="652" column="0" lean-forward="true" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
           <folding>
-            <element signature="e#3593#4431#0" expanded="false" />
-            <element signature="e#4479#6104#0" expanded="false" />
-            <element signature="e#6149#6538#0" expanded="false" />
-            <element signature="e#6591#6750#0" expanded="false" />
-            <element signature="e#6898#8665#0" expanded="false" />
-            <element signature="e#8883#9510#0" expanded="false" />
+            <element signature="e#3666#4504#0" expanded="false" />
+            <element signature="e#4552#6177#0" expanded="false" />
+            <element signature="e#6222#6611#0" expanded="false" />
+            <element signature="e#6664#6823#0" expanded="false" />
+            <element signature="e#6971#8738#0" expanded="false" />
+            <element signature="e#8956#9583#0" expanded="false" />
           </folding>
         </state>
       </provider>
