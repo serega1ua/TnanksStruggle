@@ -624,36 +624,22 @@ var tanks = {};
     // };
 
 
-var that=this;
+    var colorToDamage = function () {
+        var element = _cells[enemyTank.i][enemyTank.j].dom;
+
+        _showTank(element, CSSCLASSFOR_ENEMY_TANK_DAMAGED)
+    };
+
+    var that=this;
     var isTargetedWell =  function() {    // если танк-враг на одном ряду с нашим, то пункт поражения
         if (ourTank.i === enemyTank.i) {_cells[ourTank.i][ourTank.j].bullet.finalPosition_J = enemyTank.j;
         console.log("цель захвачена! удар по столбцу:");
         console.log(_cells[ourTank.i][ourTank.j].bullet.finalPosition_J);
+            that.pauseGame();
+            colorToDamage();
 
 
-            var element = _cells[enemyTank.i][enemyTank.j].dom;
-
-            //cellWithEnemyTankDamaged
-
-
-
-            //
-            // //функция представления (отображает в клетке любой танк или иную графику)
-            // // и контроллер тпросто будет вызывать для добавления класса и для удаления (принимает элемент из модели танка, элемент клетки и название класса)
-            // var _showTank = function (elementDOM, classOfTank) {
-            //     if (!classOfTank) console.warn("Не передан css-класс танка");
-            //     elementDOM.classList.add(classOfTank);
-            // };
-            //
-            // //контроллер  взял DOM-элемент DIV-клетки из модели ПОЛЯ:
-            // var element = _cells[i][j].dom;
-            //
-            // //отдал для отображения данные двух моделей:
-              _showTank(element, CSSCLASSFOR_ENEMY_TANK_DAMAGED)
-
-
-
-            that.pauseGame();}
+           }
     } ;
 
 
