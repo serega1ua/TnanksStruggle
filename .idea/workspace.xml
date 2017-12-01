@@ -18,8 +18,8 @@
       <file leaf-file-name="struggle.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/struggle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="639" column="0" lean-forward="true" selection-start-line="639" selection-start-column="0" selection-end-line="639" selection-end-column="0" />
+            <state relative-caret-position="322">
+              <caret line="638" column="36" lean-forward="true" selection-start-line="638" selection-start-column="36" selection-end-line="638" selection-end-column="36" />
               <folding>
                 <element signature="e#3666#4504#0" expanded="false" />
                 <element signature="e#4552#6177#0" expanded="false" />
@@ -68,9 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>controllerFor</find>
-      <find>cellWithOurTank</find>
-      <find>cellWithEnemyTank</find>
       <find>[i][j].dom</find>
       <find>_showResultOfMoving</find>
       <find>controll</find>
@@ -98,6 +95,9 @@
       <find>CSSCLASSFOR_ENEMY_TANK</find>
       <find>classOfTa</find>
       <find>_controllerFor_showResultOfMoving</find>
+      <find>Interv</find>
+      <find>Out</find>
+      <find>setTimeout</find>
     </findStrings>
     <replaceStrings>
       <replace>_getRandomIntFromInterval</replace>
@@ -278,12 +278,12 @@
       <updated>1510687684307</updated>
       <workItem from="1510687687753" duration="68039000" />
       <workItem from="1511600219039" duration="4357000" />
-      <workItem from="1511779761650" duration="50727000" />
+      <workItem from="1511779761650" duration="51061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123123000" />
+    <option name="totallyTimeSpent" value="123457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -364,8 +364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/struggle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="639" column="0" lean-forward="true" selection-start-line="639" selection-start-column="0" selection-end-line="639" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="638" column="36" lean-forward="true" selection-start-line="638" selection-start-column="36" selection-end-line="638" selection-end-column="36" />
           <folding>
             <element signature="e#3666#4504#0" expanded="false" />
             <element signature="e#4552#6177#0" expanded="false" />

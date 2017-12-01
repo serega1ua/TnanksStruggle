@@ -625,9 +625,7 @@ var tanks = {};
 
 
     var colorToDamage = function () {
-        var element = _cells[enemyTank.i][enemyTank.j].dom;
-
-        _showTank(element, CSSCLASSFOR_ENEMY_TANK_DAMAGED)
+           _showTank(_cells[enemyTank.i][enemyTank.j].dom, CSSCLASSFOR_ENEMY_TANK_DAMAGED)
     };
 
     var that=this;
@@ -638,6 +636,9 @@ var tanks = {};
             that.pauseGame();
             colorToDamage();
 
+            setTimeout(function () {
+                that.startGame();
+            }, 2000);
 
            }
     } ;
