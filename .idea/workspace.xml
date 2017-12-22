@@ -15,32 +15,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="struggle.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/struggle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="638" column="36" lean-forward="true" selection-start-line="638" selection-start-column="36" selection-end-line="638" selection-end-column="36" />
-              <folding>
-                <element signature="e#3666#4504#0" expanded="false" />
-                <element signature="e#4552#6177#0" expanded="false" />
-                <element signature="e#6222#6611#0" expanded="false" />
-                <element signature="e#6664#6823#0" expanded="false" />
-                <element signature="e#6971#8738#0" expanded="false" />
-                <element signature="e#8956#9583#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forScreen.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="forScreen.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/forScreen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
-                <element signature="e#1291#2022#2" expanded="true" />
-                <element signature="e#2120#3187#2" expanded="true" />
-                <element signature="e#3505#4636#2" expanded="true" />
+                <element signature="e#386#1201#2" expanded="true" />
+                <element signature="e#1283#2082#2" expanded="true" />
+                <element signature="e#2134#2949#2" expanded="true" />
+                <element signature="e#3002#3793#2" expanded="true" />
+                <element signature="e#3883#4674#2" expanded="true" />
+                <element signature="e#5167#5898#2" expanded="true" />
+                <element signature="e#5996#7063#2" expanded="true" />
+                <element signature="e#7381#8512#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,9 +37,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="136">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struggle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/struggle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="903" column="34" lean-forward="true" selection-start-line="903" selection-start-column="34" selection-end-line="903" selection-end-column="34" />
+              <folding>
+                <element signature="e#21536#22257#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,25 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>[i][j].dom</find>
-      <find>_showResultOfMoving</find>
-      <find>controll</find>
-      <find>showResultOfMoving</find>
-      <find>for</find>
-      <find>MakeTank</find>
-      <find>const</find>
-      <find>set</find>
-      <find>_cells</find>
-      <find>_createElement</find>
-      <find>createElement</find>
-      <find>shot</find>
-      <find>bullet</find>
-      <find>appen</find>
-      <find>class</find>
-      <find>setInterval</find>
-      <find>Bullet</find>
-      <find>dom</find>
-      <find>createModelOfThisShot</find>
       <find>startPosition_J</find>
       <find>moveEnemyTank</find>
       <find>this.pauseGame</find>
@@ -98,6 +79,25 @@
       <find>Interv</find>
       <find>Out</find>
       <find>setTimeout</find>
+      <find>len</find>
+      <find>move</find>
+      <find>colorToDamage</find>
+      <find>damaged</find>
+      <find>directionOfOurTank</find>
+      <find>CSSCLASSFOR_TO_TOP</find>
+      <find>&quot;ToTop&quot;</find>
+      <find>&quot;ToBottom&quot;</find>
+      <find>&quot;ToLeft&quot;</find>
+      <find>&quot;ToRight&quot;</find>
+      <find>направление</find>
+      <find>first</find>
+      <find>bullet</find>
+      <find>gameState</find>
+      <find>colorToDamaged</find>
+      <find>shotHitOrOut</find>
+      <find>distanceOfShot</find>
+      <find>finalSpot</find>
+      <find>bullet.finalPosition_J</find>
     </findStrings>
     <replaceStrings>
       <replace>_getRandomIntFromInterval</replace>
@@ -105,6 +105,9 @@
       <replace>_showOurTankFirstTime</replace>
       <replace>showTankFirstTime</replace>
       <replace>_createModelOfThisShotController</replace>
+      <replace>colorToDamaged</replace>
+      <replace>CSSCLASSFOR_TO_BOTTOM</replace>
+      <replace>CSSCLASSFOR_TO_RIGHT</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -127,14 +130,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="37" />
+    <option name="y" value="33" />
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -147,38 +150,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TnanksStruggle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TnanksStruggle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TnanksStruggle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TnanksStruggle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -278,26 +250,27 @@
       <updated>1510687684307</updated>
       <workItem from="1510687687753" duration="68039000" />
       <workItem from="1511600219039" duration="4357000" />
-      <workItem from="1511779761650" duration="51061000" />
+      <workItem from="1511779761650" duration="53557000" />
+      <workItem from="1513726208995" duration="42719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123457000" />
+    <option name="totallyTimeSpent" value="168672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="37" y="33" width="1366" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -314,21 +287,53 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/struggle.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#21536#22257#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/forScreen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#386#1201#2" expanded="true" />
+            <element signature="e#1283#2082#2" expanded="true" />
+            <element signature="e#2134#2949#2" expanded="true" />
+            <element signature="e#3002#3793#2" expanded="true" />
+            <element signature="e#3883#4674#2" expanded="true" />
+            <element signature="e#5167#5898#2" expanded="true" />
+            <element signature="e#5996#7063#2" expanded="true" />
+            <element signature="e#7381#8512#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/struggle.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="75" lean-forward="true" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
           <folding>
-            <element signature="e#3666#4504#0" expanded="false" />
-            <element signature="e#4552#6177#0" expanded="false" />
-            <element signature="e#6222#6611#0" expanded="false" />
-            <element signature="e#6664#6823#0" expanded="false" />
-            <element signature="e#6971#8738#0" expanded="false" />
-            <element signature="e#8956#9583#0" expanded="false" />
+            <element signature="e#21536#22257#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -342,37 +347,37 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struggle.js" />
+    <entry file="file://$PROJECT_DIR$/js/struggle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="903" column="34" lean-forward="true" selection-start-line="903" selection-start-column="34" selection-end-line="903" selection-end-column="34" />
+          <folding>
+            <element signature="e#21536#22257#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/forScreen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="221">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
-            <element signature="e#1291#2022#2" expanded="true" />
-            <element signature="e#2120#3187#2" expanded="true" />
-            <element signature="e#3505#4636#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/struggle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="638" column="36" lean-forward="true" selection-start-line="638" selection-start-column="36" selection-end-line="638" selection-end-column="36" />
-          <folding>
-            <element signature="e#3666#4504#0" expanded="false" />
-            <element signature="e#4552#6177#0" expanded="false" />
-            <element signature="e#6222#6611#0" expanded="false" />
-            <element signature="e#6664#6823#0" expanded="false" />
-            <element signature="e#6971#8738#0" expanded="false" />
-            <element signature="e#8956#9583#0" expanded="false" />
+            <element signature="e#386#1201#2" expanded="true" />
+            <element signature="e#1283#2082#2" expanded="true" />
+            <element signature="e#2134#2949#2" expanded="true" />
+            <element signature="e#3002#3793#2" expanded="true" />
+            <element signature="e#3883#4674#2" expanded="true" />
+            <element signature="e#5167#5898#2" expanded="true" />
+            <element signature="e#5996#7063#2" expanded="true" />
+            <element signature="e#7381#8512#2" expanded="true" />
           </folding>
         </state>
       </provider>
