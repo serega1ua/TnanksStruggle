@@ -1,3 +1,5 @@
+/* import "babel-polyfill"; */
+
  /* 1. Create class “Fighter” with such properties as name, health and power. 
 These parameters should be set in constructor. */
  
@@ -135,10 +137,7 @@ async function fight (fighter, improvedFighter, ...points) {
 ==========`); 
    },1000)
 
- 
-
-
-      return Fighter.prototype.knockout;
+      return fighter.knockout;
 	   
        
     }
@@ -154,7 +153,7 @@ async function fight (fighter, improvedFighter, ...points) {
 	  
   
 
- return Fighter.prototype.knockout;
+ return fighter.knockout;
        
     }
 	
@@ -169,7 +168,7 @@ async function fight (fighter, improvedFighter, ...points) {
 		 
       
 
- return Fighter.prototype.knockout;
+ return improvedFighter.knockout;
       
     }
     improvedFighter.doubleHit(fighter, points[i]);    
@@ -184,7 +183,7 @@ async function fight (fighter, improvedFighter, ...points) {
    },1000)
 			 
      
- return Fighter.prototype.knockout;
+ return improvedFighter.knockout;
       
     }
      
