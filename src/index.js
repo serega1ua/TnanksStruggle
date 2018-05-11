@@ -1,6 +1,6 @@
-import "babel-polyfill";
+ import "babel-polyfill"; 
 
-var regeneratorRuntime = null;
+ 
 
 /* 1. Create class “Fighter” with such properties as name, health and power. 
 These parameters should be set in constructor. */
