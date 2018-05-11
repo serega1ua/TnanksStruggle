@@ -1,4 +1,4 @@
-/* import "babel-polyfill"; */
+ import "polyfill"; 
 
  /* 1. Create class “Fighter” with such properties as name, health and power. 
 These parameters should be set in constructor. */
