@@ -52,13 +52,13 @@ class ImprovedFighter extends Fighter {
 	 }
 
 						/* name, health, power */
-var fighter = new Fighter("Хрюшик 1", 1340, 2);
+var fighter = new Fighter("Хрюшик 1", 7340, 2);
 console.dir(fighter);
  
-var fighter1 = new Fighter("Хрюшик 1-1",  1100, 30);
+var fighter1 = new Fighter("Хрюшик 1-1",  2100, 30);
  
 									/* name, health, power */
-var improvedFighter = new ImprovedFighter("Валюшик 2", 1901, 3);
+var improvedFighter = new ImprovedFighter("Валюшик 2", 2901, 3);
 console.dir(improvedFighter);
 var improvedFighter1 = new ImprovedFighter("Валюшик 2-1", 5, 200);
 
@@ -103,9 +103,6 @@ ${improvedFighter.name} с здоровьем ${improvedFighter.health}.
 			  =========`;
 			  /* и это тоже промис будет возвращен, он автоматически оберенётся в промис */
 		  		};
- 
- //ставим кол-во аргументов побольше, если много здоровья, чтоб было необходимое колиество оборотов для исчерпания здоровья
- 
  
 fight(fighter, improvedFighter,  20, 8, 2, 20, 1, 77,  20, 4, 77,  20, 5, 77,  5, 420, 77,  20, 20, 77,  20, 20, 77,  20, 20, 77,  20, 20, 77,  20, 20, 77).
 then(x => console.log(`
